@@ -1,0 +1,37 @@
+/* 
+COPYRIGHT (MIT License)
+
+Year: 2021 
+Author: steff 
+Email: stefanita.manea@gmail.com
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */
+// 
+// 
+{
+    /* 
+    SIGNATURE SECTION 
+    Contains identification information and should be shared by all manifests inside the workflow.
+    */
+    "header": {
+        "name": "fs-angular-express.ts", // by convention the name should contain the names of the main frameworks used 
+        // and an extension suggesting the programming language (e.g. .ts fo TypeScript, .cpp for C++)
+        "developer": "", // the name of the original developer or an array with the names of all developers involved
+        "license": "", // the type of licensing conditions (e.g. MIT)
+        "url": "", // the web address for hosting information about the workflow or the workflow itself
+        "qri": "" // Quick Read Identity (to be added)
+    },
+    "type": "generator", // the type of manifest (versioning, generator, controller)
+    /* 
+    BODY SECTION
+    Contains specific data regarding information and actions required by the position in the workflow's hierarchy. 
+    */
+    "check": {},
+    "clone": {},
+    "configure": {},
+    "command": {}
+}
